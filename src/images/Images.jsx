@@ -4,7 +4,7 @@ import sidebar from '../assets/newsImg/sidebar.webp'
 const Images = {
     logo,
     NewsImg,
-    sidebar
+    sidebar,
 };
 
 export default Images;
