@@ -33,7 +33,7 @@ const Section2 = () => {
                 onMouseLeave={handleMouseLeave}
                 className="relative"
             >
-                <a className="flex items-center justify-between w-full focus:outline-none">
+                <a className="flex justify-between w-full focus:outline-none">
                     Parent
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -52,7 +52,7 @@ const Section2 = () => {
                 </a>
                 {/* Submenu for Parent */}
                 {isSubmenuOpen && (
-                    <ul className="p-2 bg-gray-100 rounded shadow-lg absolute left-0 mt-1 z-10">
+                    <ul className="p-2 bg-gray-100 rounded justify-center shadow-lg absolute left-0 mt-1 z-10">
                         <li>
                             <a
                                 href="#"
@@ -82,7 +82,7 @@ const Section2 = () => {
 
     return (
         <div>
-            <div className="navbar md:bg-white bg-gray-100 justify-center">
+            <div className="navbar md:bg-white bg-gray-100 justify-center ">
                 <div>
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost md:hidden">
@@ -106,8 +106,8 @@ const Section2 = () => {
                         </ul>
                     </div>
                 </div>
-                <div className="hidden md:flex">
-                    <ul className="md:flex-wrap align-middle cursor-pointer menu-horizontal py-2 gap-4">
+                <div className="hidden md:flex justify-center">
+                    <ul className="md:flex-wrap cursor-pointer  menu-horizontal py-2 gap-4 justify-center">
                         {navList}
                     </ul>
                 </div>

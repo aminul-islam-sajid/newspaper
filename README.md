@@ -1,3 +1,3 @@
-# Starter Project
+# Newspaper
 
-Clint site Setup
+Clint site Design

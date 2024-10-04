@@ -65,14 +65,14 @@ const Section1 = () => {
                 </div>
 
                 {/* Navbar Center */}
-                <div className="navbar-center hidden lg:flex">
+                <div className="navbar-center hidden lg:flex justify-center">
                     <ul className="menu  menu-horizontal gap-4">
                         {menuItems}
                     </ul>
                 </div>
 
                 {/* Navbar End */}
-                <div className="navbar-end flex gap-4 ">
+                <div className="navbar-end flex gap-4">
                     <button className="btn btn-xs bg-[#567b95] text-white">
                         SUBSCRIBE FOR $0.25/WEEK</button>
                     <button className="btn btn-xs bg-[#567b95] text-white">Log in</button>
