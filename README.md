@@ -1,8 +1,9 @@
 # Newspaper
 
 Clint site Design
-my design
-![Newspaper Design](./src/assets/Screenshot 2024-10-04 223815.png)
 
 My inspiration
-![Newspaper Design](./src/assets/Screenshot 2024-10-04 223816.png)
+![Newspaper Design](https://github.com/aminul-islam-sajid/newspaper/blob/main/src/assets/Screenshot%202024-10-04%20223815.png)
+
+my design
+![Newspaper Design](https://github.com/aminul-islam-sajid/newspaper/blob/main/src/assets/Screenshot%202024-10-04%20225136.png)
